@@ -1,0 +1,42 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/resources/ui5/slick/ui5slick",
+      "target": {
+        "type": "application",
+        "name": "ui5slickui5slick"
+      },
+      "description": "Slick UI5 Control"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "application",
+        "name": "ui5slickui5slick",
+        "entryPath": "test"
+      },
+      "description": "Slick UI5 Control"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.60.2"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.60.2"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+}

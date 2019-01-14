@@ -1,0 +1,9 @@
+.slick-slider {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: red;
+}
